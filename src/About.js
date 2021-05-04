@@ -7,7 +7,10 @@ import Common from './Common'
 
 function About() {
     return (
-        <Common />
+        <>
+        {/* pass in props to be accessed in Common component */}
+            <Common name='About us at ' imgsrc={web} visit='/contact' btnname='Contact Now' />
+        </>
     )
 }
 
