@@ -6,7 +6,8 @@ import web from '../src/images/img2.svg'
 import Common from './Common';
 function Home() {
     return (
-        <Common />
+        // pass in props to be accessed at Common component
+        <Common name='Grow your business with' imgsrc={web} visit='/services' btnname='Get Started'/>
     )
 }
 
