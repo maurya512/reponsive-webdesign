@@ -4,8 +4,8 @@ import {NavLink} from 'react-router-dom'
 // import files 
 import web from '../src/images/img2.svg'
 
-
-function Common() {
+// props passed in to access properties described from other components 
+function Common(props) {
     return (
         <section id='header' className='d-flex align-items-center'>
             <div className='container-fluid nav_bg'>
@@ -15,20 +15,21 @@ function Common() {
 
                         <div className='col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column'>
                             <h1>
-                                Grow your business with <strong className='brand-name' >ESSNTL</strong>
+                                {props.name}
+                                <strong className='brand-name' >ESSNTL</strong>
                             </h1>
                             <h2 className='my-3'>
                                 We are a team of talented individuals providing solutions to your growing business.
                             </h2>
                             <div className='mt-3'>
-                                <NavLink to='/services' className='btn-get-started'>
-                                    Get Started
+                                <NavLink to={props.visit} className='btn-get-started'>
+                                    {props.btnname}
                                 </NavLink>
                             </div>
                         </div>
 
                         <div className='col-lg-6 order-1 order-lg-2 header-img'>
-                            <img src={web} className='img-fluid animated' alt='common img'/>
+                            <img src={props.imgsrc} className='img-fluid animated' alt='common img'/>
                             </div> 
                     </div>
                         </div>
