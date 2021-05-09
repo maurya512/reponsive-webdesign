@@ -9,6 +9,7 @@ import Contact from './Contact';
 import Home from './Home';
 import Service from './Service';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 // App Component
 function App() {
@@ -26,6 +27,8 @@ function App() {
       {/* if no valid path is a hit then render the user to home page */}
         <Redirect to={Home} />
       </Switch>
+      {/* Footer for the website */}
+      <Footer />
     </>
   );
 }
