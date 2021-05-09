@@ -20,6 +20,7 @@ function Service() {
                                     return <Card key={ind}
                                     imgsrc={val.imgsrc}
                                     title={val.title}
+                                    description={val.description}
                                     />
                                 })
                             }
