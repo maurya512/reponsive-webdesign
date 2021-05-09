@@ -2,7 +2,7 @@ import React from 'react'
 import {NavLink} from 'react-router-dom'
 
 // import files 
-import web from '../src/images/img2.svg'
+// import web from '../src/images/img2.svg'
 
 // props passed in to access properties described from other components 
 function Common(props) {
