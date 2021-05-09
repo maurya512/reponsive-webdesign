@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/responsive-webdesign/static/css/main.c317b966.chunk.css",
+    "main.js": "/responsive-webdesign/static/js/main.f3304090.chunk.js",
+    "main.js.map": "/responsive-webdesign/static/js/main.f3304090.chunk.js.map",
+    "runtime-main.js": "/responsive-webdesign/static/js/runtime-main.5bf673e4.js",
+    "runtime-main.js.map": "/responsive-webdesign/static/js/runtime-main.5bf673e4.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/responsive-webdesign/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.d5dd1a24.chunk.js": "/responsive-webdesign/static/js/2.d5dd1a24.chunk.js",
+    "static/js/2.d5dd1a24.chunk.js.map": "/responsive-webdesign/static/js/2.d5dd1a24.chunk.js.map",
+    "index.html": "/responsive-webdesign/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/responsive-webdesign/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.c317b966.chunk.css.map": "/responsive-webdesign/static/css/main.c317b966.chunk.css.map",
+    "static/js/2.d5dd1a24.chunk.js.LICENSE.txt": "/responsive-webdesign/static/js/2.d5dd1a24.chunk.js.LICENSE.txt",
+    "static/media/game.a3f12a59.jpg": "/responsive-webdesign/static/media/game.a3f12a59.jpg",
+    "static/media/graphic.b2d07477.jpg": "/responsive-webdesign/static/media/graphic.b2d07477.jpg",
+    "static/media/img1.b24475ad.svg": "/responsive-webdesign/static/media/img1.b24475ad.svg",
+    "static/media/img2.dda43e28.svg": "/responsive-webdesign/static/media/img2.dda43e28.svg",
+    "static/media/market.2b569f7a.jpg": "/responsive-webdesign/static/media/market.2b569f7a.jpg",
+    "static/media/prj.13659ccb.jpg": "/responsive-webdesign/static/media/prj.13659ccb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5bf673e4.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.d5dd1a24.chunk.js",
+    "static/css/main.c317b966.chunk.css",
+    "static/js/main.f3304090.chunk.js"
+  ]
+}
