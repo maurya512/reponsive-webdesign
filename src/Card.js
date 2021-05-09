@@ -9,8 +9,9 @@ function Card(props) {
                     <img src={props.imgsrc} class="card-img-top" alt="img src" />
                     <div class="card-body">
                         <h5 class="card-title font-weight-bold">{props.title}</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <NavLink to='/' class="btn btn-primary">Go somewhere</NavLink>
+                        <p class="card-text">{props.description}</p>
+                        <NavLink
+                            to='/contact' class="btn btn-danger">Take Me There</NavLink>
                     </div>
                 </div>
             </div>
